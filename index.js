@@ -1,10 +1,10 @@
-require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const app = express();
 const parser = require("body-parser");
 const dns = require("dns");
 const url = require("url");
+require("dotenv").config();
 
 // Basic Configuration
 const port = process.env.PORT || 3000;
